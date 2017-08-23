@@ -1,1 +1,24 @@
 This is a git repo
+
+
+-> instal git on your pc
+	+> linux (apt-get install git)
+-> create acount git hub
+-> create repository on git hub
+	+> git init
+	+> git config user.name "your name"
+	+> git config user.email "your email can everything email"
+	+> git add your file
+	+> git commit -m "commit for you file"
+	+> git remote add origin your addres github
+	+> git push origin master
+
+
+-> install module on project folder with npm
+	+> npm init
+	+> npm install -save huejay
+	+> npm install -save hue-module
+	+> npm install -save express
+	+> npm install -save body-parser
+-> for handler view node can use handlebars
+	+> npm install -save hbs
