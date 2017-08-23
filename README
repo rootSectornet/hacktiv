@@ -22,3 +22,5 @@ This is a git repo
 	+> npm install -save body-parser
 -> for handler view node can use handlebars
 	+> npm install -save hbs
+-> for auto restart file node js instal nodemon
+	+> npm install --save nodemon -g
