@@ -29,39 +29,18 @@
       </div>
     </div>
 
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Hello, </h1>
-        <p class="lead text-muted"> is obsessed with creating and sharing unique and authentic product experiences that stimulate our fans' imaginations and fuel their geek core.</p>
-        <form action="/echo" method="POST">
-        	<div class="form-group">
-        		<input type="text" name="name" placeholder="Input Your name ... " class="form-control">
-        		<button type="submit" class="btn btn-info">ECHO!</button>
-        	</div>
-        </form>
-      </div>
-    </section>
+<section class="jumbotron text-center">
+  <div class="container">
+    <img class="img-fluid" src="{{ item.image }}" alt="Card image cap">
 
-    <div class="album text-muted">
-      <div class="container">
+    <p class="lead text-muted">{{ item.description }}</p>
+    <p>
+      <a href="#" class="btn btn-warning">Buy now</a>
+      <a href="/" class="btn btn-secondary">Back to our collection</a>
+    </p>
 
-        <div class="row">
-        {{#each item}}
-          <div class="card">
-            <img class="img-fluid" src="{{image}}" alt="Card image cap">
-            <p class="card-text">{{description}}
-            </p>
-            <div class="text-center">
-              <a href="/detail/{{id}}" class="btn btn-warning">Lihat</a>
-              <a href="#" class="btn btn-secondary">Masukkan ke keranjang</a>
-            </div>
-          </div>
-          {{/each}}
-        </div>
-
-
-      </div>
-    </div>
+  </div>
+</section>
 
     <footer class="text-muted">
       <div class="container">

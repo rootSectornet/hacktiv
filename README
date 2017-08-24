@@ -1,5 +1,4 @@
-This is a git repo
-
+Web Application first 
 
 -> instal git on your pc
 	+> linux (apt-get install git)
@@ -24,3 +23,29 @@ This is a git repo
 	+> npm install -save hbs
 -> for auto restart file node js instal nodemon
 	+> npm install --save nodemon -g
+
+
+Struktur Folder 
+
+-> data
+ => item.json
+-> public
+ => css
+    ==> vendor
+     ===> bootstrap.min.css
+    ==> album.css
+ => img
+ => js
+-> views
+ => index.hbs
+ => post.hbs
+
+-> none_modules
+
+is a modules express
+
+->server.js
+->app.js
+-> package.json
+->package-lock.json
+
